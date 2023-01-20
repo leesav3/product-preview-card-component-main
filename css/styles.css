@@ -5,6 +5,14 @@ body {
     background-color: hsl(30, 38%, 92%); 
 }
 
+a {
+    color: hsl(212, 21%, 14%);
+}
+
+a:hover {
+    color: hsl(158, 36%, 37%);
+}
+
 button {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
@@ -14,6 +22,10 @@ button {
     border-radius: 8px;
     display: inline-flex;
     align-items: center; 
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 15%);;
 }
 
 .buttontext {
@@ -29,12 +41,13 @@ button {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 28% 28%;
-    grid-auto-rows: 1fr;
-    justify-content: center;
+    height: 100vh;
+    grid-template-columns: 290px 290px;
+    grid-template-rows: 435px;
+    place-content: center;
+    justify-items: center;
     row-gap: 0px;
     column-gap: 0px;
-    
 }
 
 .product-container {
@@ -44,7 +57,7 @@ button {
 }
 
 /** text styles **/
-.perfume {
+.product-category {
     text-transform: uppercase;
     letter-spacing: .3em;
     padding-bottom: 15px;
@@ -58,12 +71,12 @@ button {
 
 .product-description {
     line-height: 1.75;
-    margin: 20px 0px 20px 0px;
+    margin: 15px 0px 15px 0px;
 }
 
 .pricing {
     vertical-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .sale-price {
@@ -72,6 +85,14 @@ button {
     color: hsl(158, 36%, 37%);
 }
 
-.strikethru {
+.regular-price {
     text-decoration: line-through;
 }
+
+.attribution {
+    text-align: center;
+    color: hsl(212, 21%, 14%);
+}
+
+/* media queries */
+
