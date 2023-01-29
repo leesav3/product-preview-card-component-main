@@ -40,6 +40,10 @@ button:active {
     margin-left: 10px;
 }
 
+table {
+    width: 100%;
+}
+
 /** text styles **/
 .product-category {
     text-transform: uppercase;
