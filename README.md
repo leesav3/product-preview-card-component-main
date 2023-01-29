@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/leesav3/product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://leesav3.github.io/product-preview-card-component-main/)
+- Solution URL: [https://github.com/leesav3/product-preview-card-component-main](https://github.com/leesav3/product-preview-card-component-main)
+- Live Site URL: [https://leesav3.github.io/product-preview-card-component-main/](https://leesav3.github.io/product-preview-card-component-main/)
 
 ## My process
 
@@ -58,7 +58,7 @@ A lot. :)
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) - This helped me put the CSS Grid layout into practice.
+- [MDN Docs - CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) - This helped me put the CSS Grid layout into practice.
 
 ## Author
 
