@@ -40,9 +40,6 @@ button:active {
     margin-left: 10px;
 }
 
-
-
-
 /** text styles **/
 .product-category {
     text-transform: uppercase;
@@ -79,6 +76,11 @@ button:active {
 .attribution {
     text-align: center;
     color: hsl(212, 21%, 14%);
+}
+
+/* accessibility */
+.screenreader-only {
+    display: none;
 }
 
 
